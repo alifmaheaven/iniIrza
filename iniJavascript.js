@@ -1,31 +1,3 @@
-function Myonclick() {
-  alert("hore");
-}
-
-function tambahan() {
-  var bilangan1 = document.getElementById("input1").value;
-  var bilangan2 = document.getElementById("input2").value;
-  document.getElementById("hasil").value = parseInt(bilangan1) + parseInt(bilangan2);
-}
-
-function pengurangan() {
-  var bilangan1 = document.getElementById("input1").value;
-  var bilangan2 = document.getElementById("input2").value;
-  document.getElementById("hasil").value = parseInt(bilangan1) - parseInt(bilangan2);
-}
-
-function perkalian() {
-  var bilangan1 = document.getElementById("input1").value;
-  var bilangan2 = document.getElementById("input2").value;
-  document.getElementById("hasil").value = parseInt(bilangan1) * parseInt(bilangan2);
-}
-
-function pembagian() {
-  var bilangan1 = document.getElementById("input1").value;
-  var bilangan2 = document.getElementById("input2").value;
-  document.getElementById("hasil").value = parseInt(bilangan1) / parseInt(bilangan2);
-}
-
 function hasil(params) {
   var bilangan1 = document.getElementById("input1").value;
   var bilangan2 = document.getElementById("input2").value;
