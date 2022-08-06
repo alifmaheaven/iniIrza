@@ -13,5 +13,5 @@ function hasil(params) {
     hasil = parseInt(bilangan1) * parseInt(bilangan2);
   }
 
-  document.getElementById("hasil").value = hasil;
+  document.getElementById("hasil").innerHTML = `<button class="btn btn-danger"><h1>${hasil}</h1></button>`;
 }
